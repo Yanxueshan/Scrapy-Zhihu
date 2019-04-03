@@ -23,6 +23,7 @@ zheye: 倒立文字验证码识别相关文件
 ## Scrapy-Zhihu重要方法介绍
 
 spiders.zhihu.py:
+
 start_requests: 重写start_requests方法， 模拟登录知乎
 
 get_cookies：模拟登录知乎，将登录后的cookies写入文件中，并返回登录之后的cookies

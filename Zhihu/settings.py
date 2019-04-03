@@ -48,9 +48,9 @@ COOKIES_ENABLED = True
 DOWNLOADER_MIDDLEWARES = {
     'Zhihu.middlewares.ZhihuDownloaderMiddleware': 543,
     'Zhihu.middlewares.RedirectDealDownloaderMiddleware': 3,
-    # 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
-    # 'Zhihu.middlewares.RandomUserAgentDownloaderMiddleware': 1,
-    # 'Zhihu.middlewares.ProxyDownloaderMiddleware': 2,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'Zhihu.middlewares.RandomUserAgentDownloaderMiddleware': 1,
+    'Zhihu.middlewares.ProxyDownloaderMiddleware': 2,
 }
 
 # Enable or disable extensions
